@@ -27,6 +27,20 @@
         "width": 2,
         "file": "panel.html",
         "headerColor": "#525F78"
+      },
+      {
+        "name": "name",
+        "title": "Name",
+        "width": 2,
+        "file": "name.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "score",
+        "title": "Score",
+        "width": 2,
+        "file": "scoring.html",
+        "headerColor": "#525F78"
       }
     ],
     "graphics": [
@@ -35,6 +49,16 @@
         "width": 1920,
         "height": 1080,
         "singleInstance": false
+      },
+      {
+        "file": "score.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "lowerthird.html",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },
