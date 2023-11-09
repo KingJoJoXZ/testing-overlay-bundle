@@ -6,7 +6,7 @@ const twitterEl = document.getElementById('nickname')
 
 nodecg.listenFor('showLowerthird', (newVal) => {
 	nameEl.innerHTML = newVal.name;
-	twitterEl.innerHTML = newVal.nickname;
+	nicknameEl.innerHTML = newVal.nickname;
 
 	const tl = gsap.timeline();
 
@@ -16,7 +16,7 @@ nodecg.listenFor('showLowerthird', (newVal) => {
 
 	tl.call(() => {
 		nameEl.innerHTML = "";
-		twitterEl.innerHTML = "";
+		nicknameEl.innerHTML = "";
 	})
 	tl.set([nameplateEl, nameEl, nicknameEl], {width: ""})
 })
