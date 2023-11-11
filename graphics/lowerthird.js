@@ -1,8 +1,8 @@
-import {gsap} from '../node_modules/gsap/index.js';
+import {gsap} from 'c:\Users\King\Desktop\Nodecg\node_modules\gsap\index.js';
 
 const nameplateEl = document.getElementById('nameplate')
 const nameEl = document.getElementById('name')
-const twitterEl = document.getElementById('nickname')
+const nicknameEl = document.getElementById('nickname')
 
 nodecg.listenFor('showLowerthird', (newVal) => {
 	nameEl.innerHTML = newVal.name;
