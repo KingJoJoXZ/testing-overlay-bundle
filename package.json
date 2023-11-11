@@ -1,7 +1,7 @@
 {
-  "name": "testing-overlay-bundle",
+  "name": "valorant-stream",
   "version": "0.0.0",
-  "description": "tester bundle",
+  "description": "Ndoecg with Valorant",
   "homepage": "",
   "author": {
     "name": "Nigerell",
@@ -22,10 +22,10 @@
     "compatibleRange": "^2.0.0",
     "dashboardPanels": [
       {
-        "name": "panel",
-        "title": "Panel",
+        "name": "messages",
+        "title": "Messages",
         "width": 2,
-        "file": "panel.html",
+        "file": "Messages.html",
         "headerColor": "#525F78"
       },
       {
@@ -41,6 +41,20 @@
         "width": 2,
         "file": "scoring.html",
         "headerColor": "#525F78"
+      },
+      {
+        "name": "Team 1 Name",
+        "title": "Team 1 Name",
+        "width": 2,
+        "file": "Team1D.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "Team 2 Name",
+        "title": "Team 2 Name",
+        "width": 2,
+        "file": "Team2D.html",
+        "headerColor": "#525F78"
       }
     ],
     "graphics": [
@@ -51,12 +65,22 @@
         "singleInstance": false
       },
       {
-        "file": "score.html",
+        "file": "scoreboard.html",
         "width": 1920,
         "height": 1080
       },
       {
         "file": "lowerthird.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Team1Name.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Team2Name.html",
         "width": 1920,
         "height": 1080
       }
